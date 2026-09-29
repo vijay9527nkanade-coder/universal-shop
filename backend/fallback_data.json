@@ -1,0 +1,57 @@
+[
+  {
+    "platform": "amazon",
+    "product_url": "https://www.amazon.in/dp/B08L5WHFT9",
+    "name": "Apple AirPods Pro (2nd Generation)",
+    "category": "wireless earbuds",
+    "price": 24900.00,
+    "rating": 4.6,
+    "review_count": 14500,
+    "image_url": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SX679_.jpg",
+    "is_fallback": true
+  },
+  {
+    "platform": "flipkart",
+    "product_url": "https://www.flipkart.com/boat-airdopes-131-bluetooth-headset/p/itm0bb5c3175e114",
+    "name": "boAt Airdopes 131 Bluetooth Headset",
+    "category": "wireless earbuds",
+    "price": 899.00,
+    "rating": 4.1,
+    "review_count": 520000,
+    "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/n/s/m/-original-imagp6jgzjzgdeew.jpeg?q=70",
+    "is_fallback": true
+  },
+  {
+    "platform": "myntra",
+    "product_url": "https://www.myntra.com/headphones/noise/noise-buds-vs102-truly-wireless-earbuds/1523456/buy",
+    "name": "Noise Buds VS102 Truly Wireless Earbuds",
+    "category": "wireless earbuds",
+    "price": 1099.00,
+    "rating": 4.0,
+    "review_count": 25000,
+    "image_url": "https://assets.myntrasassets.com/h_1440,q_90,w_1080/v1/assets/images/1523456/2021/8/12/123456789-Noise-Buds-VS102-1.jpg",
+    "is_fallback": true
+  },
+  {
+    "platform": "amazon",
+    "product_url": "https://www.amazon.in/dp/B08J5F3G18",
+    "name": "Samsung Galaxy S20 FE 5G",
+    "category": "smartphone",
+    "price": 29999.00,
+    "rating": 4.4,
+    "review_count": 89000,
+    "image_url": "https://m.media-amazon.com/images/I/81vDZyJQ-4L._SX679_.jpg",
+    "is_fallback": true
+  },
+  {
+    "platform": "flipkart",
+    "product_url": "https://www.flipkart.com/apple-iphone-13-starlight-128-gb/p/itmc9604f122ae7f",
+    "name": "Apple iPhone 13 (Starlight, 128 GB)",
+    "category": "smartphone",
+    "price": 52999.00,
+    "rating": 4.7,
+    "review_count": 250000,
+    "image_url": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70",
+    "is_fallback": true
+  }
+]

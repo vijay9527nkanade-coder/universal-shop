@@ -1,0 +1,46 @@
+name: app
+description: "Universal Shop — cross-platform product search powered by FastAPI."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Networking
+  http: ^1.2.2
+
+  # Deep-linking / opening product URLs in the browser
+  url_launcher: ^6.3.1
+
+  # Image picking (camera + gallery) for Lens screen
+  image_picker: ^1.1.2
+
+  # Persisting the unique device_id across app restarts
+  shared_preferences: ^2.3.3
+
+  # Generating the device UUID on first launch
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Generates adaptive launcher icons from assets/icon.png
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"

@@ -1,0 +1,31 @@
+# ── Core API framework ────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy==2.0.36
+alembic==1.13.3
+
+# ── Validation / config ───────────────────────────────────────────────────────
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# ── Web scraping ──────────────────────────────────────────────────────────────
+playwright==1.63.0
+
+# ── Background job scheduler (APScheduler) ────────────────────────────────────
+apscheduler==3.10.4
+
+# ── Sentiment analysis (VADER) ────────────────────────────────────────────────
+vaderSentiment==3.3.2
+
+# ── Visual search (CLIP + FAISS) ──────────────────────────────────────────────
+sentence-transformers==3.3.1
+# Install the CPU-only FAISS build; swap for faiss-gpu on CUDA machines
+faiss-cpu==1.9.0.post1
+Pillow==11.0.0
+numpy==2.5.3
+
+# ── HTTP client (used inside lens.py to fetch image URLs) ─────────────────────
+requests==2.32.3
